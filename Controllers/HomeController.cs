@@ -23,6 +23,12 @@ namespace APNETCoreMVC.Controllers
             return View();
         }
 
+        public IActionResult GetList()
+        {
+            String s = " Item1 \n Item2 \n Item3 \n Item4 \n Item5 \n Item6 \n Item7 \n Item8";
+            return Content(s);
+        }
+
         public IActionResult Privacy()
         {
             return View();
